@@ -1,0 +1,36 @@
+{
+  "name": "NexGen - Next Generation Technology Solutions",
+  "short_name": "NexGen",
+  "description": "Cutting-edge technology solutions for modern businesses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["technology", "web development", "devops", "blockchain"],
+  "shortcuts": [
+    {
+      "name": "DevOps Services",
+      "url": "/services/devops"
+    },
+    {
+      "name": "AI Solutions",
+      "url": "/services/ai-agents"
+    },
+    {
+      "name": "Web Development",
+      "url": "/services/web-development"
+    }
+  ]
+}

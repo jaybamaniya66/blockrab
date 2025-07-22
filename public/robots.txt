@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /admin/
+
+# Crawl delay
+Crawl-delay: 10
