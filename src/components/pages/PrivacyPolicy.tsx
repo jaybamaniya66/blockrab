@@ -246,9 +246,31 @@ const PrivacyPolicy = () => {
                 <li>Right to object to processing</li>
                 <li>Rights related to automated decision making</li>
               </ul>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
                 To exercise your GDPR rights, please contact us using the information provided above.
               </p>
+              <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg border border-blue-200 dark:border-blue-800">
+                <h3 className="text-xl font-semibold text-blue-800 dark:text-blue-200 mb-3">
+                  🗑️ Request Data Deletion
+                </h3>
+                <p className="text-blue-700 dark:text-blue-300 mb-4">
+                  If you wish to delete your data collected by this app, you can:
+                </p>
+                <div className="space-y-3">
+                  <p className="text-blue-700 dark:text-blue-300">
+                    <strong>Option 1:</strong> Use our dedicated deletion request form
+                  </p>
+                  <a
+                    href="/delete-data"
+                    className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 hover:-translate-y-1"
+                  >
+                    Request Data Deletion
+                  </a>
+                  <p className="text-blue-700 dark:text-blue-300">
+                    <strong>Option 2:</strong> Email us at support@blockrabbits.com with your Facebook ID
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* California Privacy Rights */}
