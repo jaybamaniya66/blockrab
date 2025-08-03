@@ -34,5 +34,3 @@ jobs:
           password: "Blockrabbits1111@"
           server-dir: "public_html/"
           local-dir: dist/
-      - name: Copy file in the another folder
-        run: cp -R public_html/ domains/blockrabbits.com/
