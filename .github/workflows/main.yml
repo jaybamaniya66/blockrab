@@ -23,6 +23,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+      - name: check path
+        run: pwd
 
       - name: Deploy to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
