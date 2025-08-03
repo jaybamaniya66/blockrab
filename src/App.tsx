@@ -13,6 +13,7 @@ import FullStackDevelopment from "./components/pages/services/FullStackDevelopme
 import WebDevelopment from "./components/pages/services/WebDevelopment";
 import BlockchainSolutions from "./components/pages/services/BlockchainSolutions";
 import AboutUs from "./components/pages/AboutUs";
+import PrivacyPolicy from "./components/pages/PrivacyPolicy";
 import { ThemeProvider } from "./components/ThemeProvider";
 // import { ThemeProvider } from "./components/ThemeProvider";
 
@@ -36,6 +37,8 @@ const App = () => (
           <Route path="/services/blockchain-solutions" element={<BlockchainSolutions />} />
           {/* About Us Route */}
           <Route path="/about" element={<AboutUs />} />
+          {/* Privacy Policy Route */}
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* Catch-all route */}
           <Route path="*" element={<NotFound />} />
         </Routes>

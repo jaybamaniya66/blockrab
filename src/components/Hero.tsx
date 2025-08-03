@@ -1,8 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
-import { Smartphone, Server, Shield } from "lucide-react";
+import { useEffect, useState } from "react";
 
 const services = [
   { name: "Web Development"},

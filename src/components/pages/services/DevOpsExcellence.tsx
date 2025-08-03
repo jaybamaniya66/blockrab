@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Navigation from "@/components/Navigation";
+import { useEffect } from "react";
 
 const DevOpsExcellence = () => {
   useEffect(() => {
