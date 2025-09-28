@@ -14,6 +14,7 @@ import WebDevelopment from "./components/pages/services/WebDevelopment";
 import BlockchainSolutions from "./components/pages/services/BlockchainSolutions";
 import AboutUs from "./components/pages/AboutUs";
 import PrivacyPolicy from "./components/pages/PrivacyPolicy";
+import TermsOfService from "./components/pages/TermsOfService";
 import DeleteData from "./components/pages/DeleteData";
 import { ThemeProvider } from "./components/ThemeProvider";
 // import { ThemeProvider } from "./components/ThemeProvider";
@@ -40,6 +41,8 @@ const App = () => (
           <Route path="/about" element={<AboutUs />} />
           {/* Privacy Policy Route */}
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          {/* Terms of Service Route */}
+          <Route path="/terms" element={<TermsOfService />} />
           {/* User Data Deletion Route */}
           <Route path="/delete-data" element={<DeleteData />} />
           {/* Catch-all route */}

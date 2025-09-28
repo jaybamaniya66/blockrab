@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   useEffect(() => {
@@ -260,12 +261,12 @@ const PrivacyPolicy = () => {
                   <p className="text-blue-700 dark:text-blue-300">
                     <strong>Option 1:</strong> Use our dedicated deletion request form
                   </p>
-                  <a
-                    href="/delete-data"
+                  <Link
+                    to="/delete-data"
                     className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 hover:-translate-y-1"
                   >
                     Request Data Deletion
-                  </a>
+                  </Link>
                   <p className="text-blue-700 dark:text-blue-300">
                     <strong>Option 2:</strong> Email us at support@blockrabbits.com with your Facebook ID
                   </p>

@@ -83,8 +83,16 @@ const Hero = () => {
           </svg>
           WhatsApp
         </a>
+        <a 
+            onClick={() => window.open('https://wa.me/9664954421', '_blank', 'noopener,noreferrer')}
+            href="#" 
+            className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-semibold shadow-lg hover:from-pink-600 hover:via-red-600 hover:to-yellow-600 transition-all duration-200 focus:ring-2 focus:ring-pink-400 focus:outline-none"
+          aria-label="Visit Instagram"
+          >
+            Contact Us
+          </a>
         {/* Instagram Button */}
-        <a
+        {/* <a
           href="https://www.instagram.com/blockrabbits?igsh=MXFuOHFzb3J4NTFudA%3D%3D&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
@@ -95,7 +103,7 @@ const Hero = () => {
             <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9 114.9-51.3 114.9-114.9S287.7 141 224.1 141zm0 186c-39.5 0-71.5-32-71.5-71.5s32-71.5 71.5-71.5 71.5 32 71.5 71.5-32 71.5-71.5 71.5zm146.4-194.3c0 14.9-12 26.9-26.9 26.9s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-1.7-35.3-9.9-66.7-36.2-92.1C388.7 9.9 357.3 1.7 322 0 286.7-1.7 256.3 6.5 231 32.8c-25.3 26.3-33.5 56.7-35.2 92-1.7 35.3 6.5 65.7 32.8 91.1 26.3 25.3 56.7 33.5 92 35.2 35.3 1.7 66.7-6.5 92.1-32.8 25.3-26.3 33.5-56.7 35.2-92zm-48.1 218.7c-7.1 17.8-20.8 31.5-38.6 38.6-26.2 10.5-88.2 8.1-118.8 8.1s-92.6 2.4-118.8-8.1c-17.8-7.1-31.5-20.8-38.6-38.6-10.5-26.2-8.1-88.2-8.1-118.8s-2.4-92.6 8.1-118.8c7.1-17.8 20.8-31.5 38.6-38.6C131.4 9.9 193.4 12.3 224 12.3s92.6-2.4 118.8 8.1c17.8 7.1 31.5 20.8 38.6 38.6 10.5 26.2 8.1 88.2 8.1 118.8s2.4 92.6-8.1 118.8z"/>
           </svg>
           Instagram
-        </a>
+        </a> */}
       </div>
 
       {/* Mobile Screenshots with Decorative Background */}
