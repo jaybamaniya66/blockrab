@@ -111,9 +111,9 @@ const Footer = () => {
               <Link to="/privacy-policy" className="text-gray-300 dark:text-gray-600 hover:text-white dark:hover:text-black transition-colors text-sm">
                 Privacy Policy
               </Link>
-              <Link to="/terms" className="text-gray-300 dark:text-gray-600 hover:text-white dark:hover:text-black transition-colors text-sm">
+              <a href="#terms" className="text-gray-300 dark:text-gray-600 hover:text-white dark:hover:text-black transition-colors text-sm">
                 Terms of Service
-              </Link>
+              </a>
             </div>
           </div>
         </div>

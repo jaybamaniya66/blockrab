@@ -67,6 +67,9 @@ const Navigation = () => {
                 <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black dark:after:bg-white hover:after:w-full after:transition-all after:duration-300">
                   About us
                 </a>
+                <Link to="/privacy-policy" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black dark:after:bg-white hover:after:w-full after:transition-all after:duration-300">
+                  Privacy Policy
+                </Link>
               </>
             ) : (
             <>
@@ -75,6 +78,9 @@ const Navigation = () => {
               </Link>
               <Link to="/services/devops" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black dark:after:bg-white hover:after:w-full after:transition-all after:duration-300">
                 Services
+              </Link>
+              <Link to="/privacy-policy" className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-black dark:after:bg-white hover:after:w-full after:transition-all after:duration-300">
+                Privacy Policy
               </Link>
             </>
           )}
@@ -159,6 +165,13 @@ const Navigation = () => {
                 >
                   About us
                 </a>
+                <Link
+                  to="/privacy-policy"
+                  className="block text-gray-700 dark:text-gray-300 font-medium hover:text-black dark:hover:text-white transition-colors py-3 px-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Privacy Policy
+                </Link>
               </>
             ) : (
               <>
@@ -175,6 +188,13 @@ const Navigation = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Services
+                </Link>
+                <Link
+                  to="/privacy-policy"
+                  className="block text-gray-700 dark:text-gray-300 font-medium hover:text-black dark:hover:text-white transition-colors py-3 px-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Privacy Policy
                 </Link>
               </>
             )}
