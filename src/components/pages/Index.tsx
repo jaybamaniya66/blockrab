@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 
 const Index = () => {
-  // Enhanced scroll animation logic
+  // Enhanced scroll animation 
   useEffect(() => {
     // Initial animation for elements in viewport
     const animateOnScroll = () => {
